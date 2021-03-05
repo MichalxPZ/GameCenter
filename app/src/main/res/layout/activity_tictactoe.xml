@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7CD0DF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:gravity="center_horizontal"
+            android:text="TicTacToe"
+            android:textAlignment="center"
+            android:textColor="#8C40CF"
+            android:textSize="66sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="330dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonField00"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB" />
+
+                <Button
+                    android:id="@+id/buttonField01"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB" />
+
+                <Button
+                    android:id="@+id/buttonField02"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonField10"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB"
+                    android:insetLeft="3dp" />
+
+                <Button
+                    android:id="@+id/buttonField11"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB" />
+
+                <Button
+                    android:id="@+id/buttonField12"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonField20"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB" />
+
+                <Button
+                    android:id="@+id/buttonField21"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB" />
+
+                <Button
+                    android:id="@+id/buttonField22"
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:gravity="center_horizontal"
+                    android:insetLeft="3dp"
+                    android:insetRight="3dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    app:backgroundTint="#CCCBCB" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_horizontal"
+            android:text="Player move"
+            android:textAlignment="center"
+            android:textSize="42dp" />
+
+        <TextView
+            android:id="@+id/textViewCurrentPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_horizontal"
+            android:text="X"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonReturnTicTacToe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#673AB7"
+                android:text="Return"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonRestartTicTacToe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#673AB7"
+                android:text="Restart"
+                android:visibility="visible" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
