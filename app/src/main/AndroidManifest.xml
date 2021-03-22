@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".tictactoe.ActivityTicTacToe">
         </activity>
+        <activity android:name=".snake.ActivitySnake">
+        </activity>
     </application>
 
 </manifest>

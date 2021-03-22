@@ -9,15 +9,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_width="324dp"
+        android:layout_height="77dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
         android:text="Game Center"
         android:textAlignment="center"
         android:textColor="#8C40CF"
-        android:textSize="60sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

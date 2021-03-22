@@ -3,6 +3,8 @@ package com.android.gamecenter.tictactoe
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.view.Window
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
@@ -18,6 +20,9 @@ class ActivityTicTacToe: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
+        val actionBar = supportActionBar
+        actionBar?.hide()
         binding = ActivityTictactoeBinding.inflate(layoutInflater)
         binding.buttonReturnTicTacToe.setOnClickListener {
             val intent = Intent(this, ActivityGameLobby::class.java)

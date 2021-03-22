@@ -1,13 +1,13 @@
-gpackage com.android.gamecenter
+package com.android.gamecenter
 
 import android.content.DialogInterface
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Window
-import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.android.gamecenter.databinding.ActivityLobbyBinding
+import com.android.gamecenter.snake.ActivitySnake
 import com.android.gamecenter.tictactoe.ActivityTicTacToe
 import com.android.gamecenter.tictactoe.Board
 
@@ -16,11 +16,12 @@ class ActivityGameLobby : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         requestWindowFeature(Window.FEATURE_NO_TITLE)
-        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN)
+        val actionBar = supportActionBar
+        actionBar?.hide()
         binding = ActivityLobbyBinding.inflate(layoutInflater)
         binding.playSnakeButton.setOnClickListener{
-            soonDialogShow()
+            val intent = Intent(this, ActivitySnake::class.java)
+            startActivity(intent)
         }
         binding.playTetrisButton.setOnClickListener {
             soonDialogShow()
